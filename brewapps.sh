@@ -5,10 +5,13 @@
 brew install tree
 brew install python
 
+# Update Bash
+
+brew install bash
+
 # Install MacOS Applications
 
 brew install firefox --cask
 brew install virtualbox --cask
 brew install spotify --cask
 brew install pycharm --cask
-
