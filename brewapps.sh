@@ -6,7 +6,7 @@ brew install tree
 brew install python
 
 # Install MacOS Applications
-e
+
 brew install firefox --cask
 brew install virtualbox --cask
 brew install spotify --cask
