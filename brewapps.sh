@@ -14,7 +14,6 @@ brew install php
 brew install perl
 brew install ruby
 
-
 # Update Bash
 
 brew install bash
@@ -33,6 +32,9 @@ brew install webstorm --cask
 brew install phpstorm --cask
 brew install wireshark --cask
 brew install virtualbox --cask
+brew install vmware-horizon-client --cask
+brew install vmware-fusion --cask
+
 
 # Install MacOS Music Applications
 
