@@ -1,5 +1,10 @@
 #!/usr/bin/env zsh
 
+# Update Brew
+
+brew update
+brew upgrade
+
 # Install Brew Packages
 
 brew install tree
