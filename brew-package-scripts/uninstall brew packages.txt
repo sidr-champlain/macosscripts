@@ -1,0 +1,3 @@
+To uninstall brew packages, simply run: brew uninstall [package]
+
+Example: brew uninstall tree
