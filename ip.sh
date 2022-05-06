@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # The following commands create an alias for ifconfig so you don't need to keep scrolling down and reading the entire output.
-# This alias will only grab the current ip for the machine. Once you have run this bash script, you can  use Terminal now and enter 'ip' to always get the current ip address of the machine.
+# This alias will only grab the current ip for the machine. Once you have run this zsh script, you can  use Terminal now and enter 'ip' to always get the current ip address of the machine.
 
 # Filter for ip address utilizing grep
 
