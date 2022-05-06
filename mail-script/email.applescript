@@ -1,11 +1,23 @@
+# Generate display dialog to capture email data.
+
+display dialog "What is the recipient Name?" buttons {"Enter"} default answer ""
+set email_name to text returned of result
+
+display dialog "What is the recipient Email Address?" buttons {"Enter"} default answer ""
+set email_address to text returned of result
+
+display dialog "What is the subject title?" buttons {"Enter"} default answer ""
+set email_subject to text returned of result
+
+display dialog "Type email content?" buttons {"Enter"} default answer ""
+set email_content to text returned of result
+
 # Set Variables 
 
-# Change the below outputs to your correct needs
-
-set recipientName to "Automated User"
-set recipientAddress to "automateduser@gmail.com"
-set theSubject to "Automated Email Created From AppleScript"
-set theContent to "This email was generated and sent via AppleScript"
+set recipientName to email_name
+set recipientAddress to email_address
+set theSubject to email_subject
+set theContent to email_content
 
 # Invoke Mail Application
 
